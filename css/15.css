@@ -1,0 +1,28 @@
+:root {
+    --dark-blue: #264653;
+    --light-green: #2a9d8f;
+    --yellow: #decc9f;
+    --orange: #f4a261;
+    --salmon: #e76f51;
+    }
+    .container-fluid {
+    color: var(--dark-blue);
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 100vh;
+    }
+    
+    .row {
+    border: 3px solid var(--dark-blue);
+    min-height: 50px;
+    margin: 5px;
+    background-color: rgb(202, 202, 239);
+    }
+
+    div[class^="col"]{
+        border: 1px solid var(--dark-blue);
+    }
+
+    .tall {
+        min-height: 500px;
+    }
